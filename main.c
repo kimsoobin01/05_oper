@@ -3,7 +3,7 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-// 실습 1
+// 실습 3
 int main(int argc, char *argv[]) {
 	int input;
 	
@@ -12,9 +12,10 @@ int main(int argc, char *argv[]) {
 	
 	if (input > 0)
 		printf("positive\n");
-	else 
+	else if (input<0)
 		printf("non-positive\n");
-		
+	else  
+		printf("zero\n");	
 	return 0;
 }
 
