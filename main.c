@@ -3,17 +3,17 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-// 실습 2 
+// 실습 1
 int main(int argc, char *argv[]) {
 	int input;
 	
-	printf("input a integer:");
+	printf("input a number:");
 	scanf("%d", &input);
 	
 	if (input > 0)
-		printf("|x|=%d\n", input);
+		printf("positive\n");
 	else 
-		printf("|x|= %d\n", -input);
+		printf("non-positive\n");
 		
 	return 0;
 }
