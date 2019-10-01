@@ -11,11 +11,17 @@ int main(int argc, char *argv[]) {
 	scanf("%d", &input);
 	
 	if (input > 0)
+	{
 		printf("positive\n");
+	}
 	else if (input<0)
+	{
 		printf("non-positive\n");
-	else  
+	}
+	else
+	{  
 		printf("zero\n");	
+	}
 	return 0;
 }
 
